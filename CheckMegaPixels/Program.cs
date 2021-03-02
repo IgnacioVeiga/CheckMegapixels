@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -145,7 +145,7 @@ namespace CheckMegaPixels
         {
             try
             {
-                string defaultPath = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures) + "/N39Software/";
+                string defaultPath = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures) + "/CheckMegapixels/";
                 Console.WriteLine("Default path: " + defaultPath);
                 Console.Write("Where move? (enter a path or leave blank to use default): ");
                 string moveImagesHerePath = Console.ReadLine();
